@@ -1,0 +1,14 @@
+div{
+
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+span{
+background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    
+}
