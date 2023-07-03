@@ -1,0 +1,16 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration:  none;
+    margin-right: 20px;
+}
+.fa-solid.fa-house{
+    color: aqua;
+}
+.fa-brands.fa-twitter{
+    color: blueviolet;
+}
+.fa-brands.fa-youtube{
+    color: red;
+}

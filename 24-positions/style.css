@@ -1,0 +1,25 @@
+#box1{
+    width: 120px;
+    height: 120px;
+    background-color: antiquewhite;
+    position: fixed;
+    top :100px ;
+    left: 100px;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    top :5px;
+    left: 5px;
+
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: fixed;
+    top :1000px;
+    left: 1000px;
+}

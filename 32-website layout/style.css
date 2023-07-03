@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: lightblue;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+ 
+    background-color: hsl(240, 69%, 68%);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    padding: 10px;
+    float: left;    
+}
+article{
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+footer{
+    background-color:hsl(195, 17%, 55%) ;
+    padding: 25px;
+    text-align: center;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    aside,section,article{
+        width: 100%;
+    }
+}

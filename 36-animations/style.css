@@ -1,0 +1,54 @@
+
+body{
+    background-color: aliceblue;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    font-size: 13em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse ;
+    animation-play-state: running;
+    animation-timing-function:linear ;
+   /* opacity: 0;*/
+}
+@keyframes sideLeft{
+    from{transform: translateX(300%);}
+}
+@keyframes sideRight{
+    to{transform: translateX(300%);}
+}
+@keyframes sideUp{
+    from{transform: translateY(300%);}
+}
+@keyframes sideDown{
+    to{transform: translateY(300%);}
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg);}
+}
+@keyframes grow{
+    50%{transform: scale(2,2);}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5,0.5);}
+}
+@keyframes fadeIn{
+    100%{opacity: 1;}
+}
+@keyframes colorChange{
+    0%{background-color: red;}
+    20%{background-color: rgb(255, 246, 126);}
+    40%{background-color: rgb(153, 255, 0);}
+    60%{background-color: rgb(140, 255, 0);}
+    80%{background-color: rgb(0, 255, 123);}
+    100%{background-color: rgb(51, 0, 255);}
+
+}
+@keyframes glow {
+    50%{box-shadow: 0px 0px 50px purple ;}
+}
